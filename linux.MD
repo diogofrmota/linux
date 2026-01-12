@@ -95,6 +95,7 @@ Read - 4, Write - 2, Execute - 1
 `curl http://example.com` - sends a simple GET request to the specified URL  
 `curl -X POST http://example.com` - specifies a request method other than the default GET  
 `curl -H "Content-Type: application/json" http://example.com` - includes custom headers in the request  
+`curl -H "Content-Type: application/json" -u username:password http://example.com` - curl with authentication  
 `curl -X POST --data "key1=value1&key2=value2" http://example.com` - send POST Data: Sends data as POST request payload  
 
 ## File and directory commands
